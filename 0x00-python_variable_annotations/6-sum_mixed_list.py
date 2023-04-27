@@ -8,9 +8,9 @@ from typing import List, Union
 
 
 def sum_mixed_list(mxd_list:
-                   List[Union[int, float]) -> float:
+                   List[Union[int, float]]) -> float:
     """returns sum of list"""
     value = 0
-    for item in input_list:
+    for item in mxd_list:
         value += item
     return value

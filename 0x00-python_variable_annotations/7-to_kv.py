@@ -13,6 +13,5 @@ as a float.
 from typing import Tuple, Union
 
 
-def to_kv(k: str, v: Union(int, float)) -> Tuple(int
-                                                 Union(int, float)):
+def to_kv(k: str, v: Union[int, float]) -> Tuple(int, Union[int, float]):
     return (k, v)
