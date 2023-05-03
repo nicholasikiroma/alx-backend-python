@@ -1,4 +1,4 @@
-#!/usr/env python3
+#!/usr/bin/env python3
 """measure_runtime should measure
 the total runtime and return it."""
 import asyncio
